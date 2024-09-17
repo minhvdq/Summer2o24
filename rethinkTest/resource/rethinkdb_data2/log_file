@@ -1,0 +1,27 @@
+2024-07-11T10:08:00.649328000 0.035527s notice: Recursively removing directory /Users/damianvu/Desktop/VinProj/rethinkTest/resource/rethinkdb_data2/tmp
+2024-07-11T10:08:00.652869000 0.039067s notice: Initializing directory /Users/damianvu/Desktop/VinProj/rethinkTest/resource/rethinkdb_data2
+2024-07-11T10:08:00.653169000 0.039368s notice: Running rethinkdb 2.4.4 (arm64-apple-darwin23.0.0) (CLANG 15.0.0 (clang-1500.0.40.1))...
+2024-07-11T10:08:00.676668000 0.062868s notice: Running on Darwin 23.2.0 arm64
+2024-07-11T10:08:00.676720000 0.062919s notice: Loading data from directory /Users/damianvu/Desktop/VinProj/rethinkTest/resource/rethinkdb_data2
+2024-07-11T10:08:00.761689000 0.147891s info: Automatically using cache size of 100 MB
+2024-07-11T10:08:00.761694000 0.147896s warn: Cache size does not leave much memory for server and query overhead (available memory: 918 MB).
+2024-07-11T10:08:00.761697000 0.147899s warn: Cache size is very low and may impact performance.
+2024-07-11T10:08:00.762684000 0.148885s notice: Listening for intracluster connections on port 29016
+2024-07-11T10:08:00.762846000 0.149048s info: Attempting connection to 1 peer...
+2024-07-11T10:08:00.767853000 0.154055s notice: Connected to server "Damians_MacBook_Air_local_pda" 13b47c0f-dffd-4ac5-ad07-d3e4bda9075b
+2024-07-11T10:08:00.768563000 0.154765s notice: Listening for client driver connections on port 28016
+2024-07-11T10:08:00.768593000 0.154795s notice: Listening for administrative HTTP connections on port 8081
+2024-07-11T10:08:00.768595000 0.154797s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2024-07-11T10:08:00.768598000 0.154799s notice: Listening on driver addresses: 127.0.0.1, ::1
+2024-07-11T10:08:00.768600000 0.154802s notice: Listening on http addresses: 127.0.0.1, ::1
+2024-07-11T10:08:00.768602000 0.154804s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2024-07-11T10:08:00.768604000 0.154806s notice: Server ready, "Damians_MacBook_Air_local_gfj" 553080d8-6ae8-4a2e-9321-ef0f0d550514
+2024-07-11T10:16:44.479056000 523.908788s info: Table 6e106215-ed5b-4990-b411-62be8a1408a0: Starting a new Raft election for term 1.
+2024-07-11T10:16:44.479851000 523.909580s info: Table 6e106215-ed5b-4990-b411-62be8a1408a0: Added replica on this server.
+2024-07-11T10:16:44.489605000 523.919340s info: Table 6e106215-ed5b-4990-b411-62be8a1408a0: This server is Raft leader for term 1. Latest log index is 0.
+2024-07-11T11:54:21.142452000 5627.593601s notice: Disconnected from server "Damians_MacBook_Air_local_pda" 13b47c0f-dffd-4ac5-ad07-d3e4bda9075b
+2024-07-11T11:54:22.151729000 5628.602927s notice: Server got SIGINT from pid 5774, uid 501; shutting down...
+2024-07-11T11:54:22.152489000 5628.603687s notice: Shutting down client connections...
+2024-07-11T11:54:22.153052000 5628.604250s notice: All client connections closed.
+2024-07-11T11:54:22.153055000 5628.604253s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2024-07-11T11:54:22.158430000 5628.609628s notice: Storage engine shut down.

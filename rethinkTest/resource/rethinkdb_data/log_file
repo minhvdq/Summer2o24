@@ -1,0 +1,123 @@
+2024-07-11T10:06:27.026830000 0.046847s notice: Recursively removing directory /Users/damianvu/Desktop/VinProj/rethinkTest/resource/rethinkdb_data/tmp
+2024-07-11T10:06:27.029592000 0.049609s notice: Initializing directory /Users/damianvu/Desktop/VinProj/rethinkTest/resource/rethinkdb_data
+2024-07-11T10:06:27.029759000 0.049776s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/Users/damianvu/Desktop/VinProj/rethinkTest/resource/rethinkdb_data' did not already exist or is empty.)
+2024-07-11T10:06:27.029797000 0.049814s notice: Running rethinkdb 2.4.4 (arm64-apple-darwin23.0.0) (CLANG 15.0.0 (clang-1500.0.40.1))...
+2024-07-11T10:06:27.046177000 0.066196s notice: Running on Darwin 23.2.0 arm64
+2024-07-11T10:06:27.046249000 0.066267s notice: Loading data from directory /Users/damianvu/Desktop/VinProj/rethinkTest/resource/rethinkdb_data
+2024-07-11T10:06:27.101463000 0.121483s info: Automatically using cache size of 100 MB
+2024-07-11T10:06:27.101468000 0.121487s warn: Cache size does not leave much memory for server and query overhead (available memory: 895 MB).
+2024-07-11T10:06:27.101471000 0.121490s warn: Cache size is very low and may impact performance.
+2024-07-11T10:06:27.102324000 0.122343s notice: Listening for intracluster connections on port 29015
+2024-07-11T10:06:27.104155000 0.124174s notice: Listening for client driver connections on port 28015
+2024-07-11T10:06:27.104194000 0.124214s notice: Listening for administrative HTTP connections on port 8080
+2024-07-11T10:06:27.104196000 0.124216s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2024-07-11T10:06:27.104199000 0.124218s notice: Listening on driver addresses: 127.0.0.1, ::1
+2024-07-11T10:06:27.104202000 0.124222s notice: Listening on http addresses: 127.0.0.1, ::1
+2024-07-11T10:06:27.104206000 0.124225s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2024-07-11T10:06:27.104210000 0.124229s notice: Server ready, "Damians_MacBook_Air_local_pda" 13b47c0f-dffd-4ac5-ad07-d3e4bda9075b
+2024-07-11T10:08:00.768599000 93.791384s notice: Connected to server "Damians_MacBook_Air_local_gfj" 553080d8-6ae8-4a2e-9321-ef0f0d550514
+2024-07-11T11:16:32.964439000 3452.933555s info: Table 5e06e00e-0576-4a4a-a65b-fa7e31fde770: Starting a new Raft election for term 1.
+2024-07-11T11:16:32.965532000 3452.934643s info: Table 5e06e00e-0576-4a4a-a65b-fa7e31fde770: Added replica on this server.
+2024-07-11T11:16:32.977803000 3452.946915s info: Table 5e06e00e-0576-4a4a-a65b-fa7e31fde770: This server is Raft leader for term 1. Latest log index is 0.
+2024-07-11T11:54:21.114125000 5721.201853s notice: Server got SIGINT from pid 5774, uid 501; shutting down...
+2024-07-11T11:54:21.114659000 5721.202382s notice: Shutting down client connections...
+2024-07-11T11:54:21.115603000 5721.203326s notice: All client connections closed.
+2024-07-11T11:54:21.115609000 5721.203332s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2024-07-11T11:54:21.134666000 5721.222391s notice: Storage engine shut down.
+2024-07-11T11:54:21.137068000 5721.224793s notice: Disconnected from server "Damians_MacBook_Air_local_gfj" 553080d8-6ae8-4a2e-9321-ef0f0d550514
+2024-07-11T11:54:40.750358000 0.055415s notice: Running rethinkdb 2.4.4 (arm64-apple-darwin23.0.0) (CLANG 15.0.0 (clang-1500.0.40.1))...
+2024-07-11T11:54:40.772605000 0.077664s notice: Running on Darwin 23.2.0 arm64
+2024-07-11T11:54:40.772666000 0.077724s notice: Loading data from directory /Users/damianvu/Desktop/VinProj/rethinkTest/resource/rethinkdb_data
+2024-07-11T11:54:40.798506000 0.103565s info: Automatically using cache size of 100 MB
+2024-07-11T11:54:40.798510000 0.103570s warn: Cache size does not leave much memory for server and query overhead (available memory: 926 MB).
+2024-07-11T11:54:40.798513000 0.103573s warn: Cache size is very low and may impact performance.
+2024-07-11T11:54:40.801085000 0.106145s notice: Listening for intracluster connections on port 29015
+2024-07-11T11:54:40.815852000 0.120912s notice: Listening for client driver connections on port 28015
+2024-07-11T11:54:40.815906000 0.120966s notice: Listening for administrative HTTP connections on port 8080
+2024-07-11T11:54:40.815907000 0.120967s notice: Listening on cluster addresses: 127.0.0.1, 172.16.2.163, ::1, fe80::1%1, fe80::cba:5d9d:6c6c:65e6%19, fe80::14b5:e86a:9e7d:cce3%11, fe80::392e:d4c5:8f34:13d0%15, fe80::437e:eba2:fb43:9491%17, fe80::50f3:cbff:fe41:bab6%12, fe80::50f3:cbff:fe41:bab6%13, fe80::952d:c727:9c76:138e%20, fe80::ce81:b1c:bd2c:69e%18, fe80::d203:9e79:7268:532%16
+2024-07-11T11:54:40.815909000 0.120969s notice: Listening on driver addresses: 127.0.0.1, 172.16.2.163, ::1, fe80::1%1, fe80::cba:5d9d:6c6c:65e6%19, fe80::14b5:e86a:9e7d:cce3%11, fe80::392e:d4c5:8f34:13d0%15, fe80::437e:eba2:fb43:9491%17, fe80::50f3:cbff:fe41:bab6%12, fe80::50f3:cbff:fe41:bab6%13, fe80::952d:c727:9c76:138e%20, fe80::ce81:b1c:bd2c:69e%18, fe80::d203:9e79:7268:532%16
+2024-07-11T11:54:40.815918000 0.120979s notice: Listening on http addresses: 127.0.0.1, 172.16.2.163, ::1, fe80::1%1, fe80::cba:5d9d:6c6c:65e6%19, fe80::14b5:e86a:9e7d:cce3%11, fe80::392e:d4c5:8f34:13d0%15, fe80::437e:eba2:fb43:9491%17, fe80::50f3:cbff:fe41:bab6%12, fe80::50f3:cbff:fe41:bab6%13, fe80::952d:c727:9c76:138e%20, fe80::ce81:b1c:bd2c:69e%18, fe80::d203:9e79:7268:532%16
+2024-07-11T11:54:40.815921000 0.120981s notice: Server ready, "Damians_MacBook_Air_local_pda" 13b47c0f-dffd-4ac5-ad07-d3e4bda9075b
+2024-07-11T11:54:42.065133000 1.370259s info: Table 5e06e00e-0576-4a4a-a65b-fa7e31fde770: Starting a new Raft election for term 2.
+2024-07-11T11:54:42.074155000 1.379281s info: Table 5e06e00e-0576-4a4a-a65b-fa7e31fde770: This server is Raft leader for term 2. Latest log index is 3.
+2024-07-11T11:56:00.451526000 79.760755s notice: Connected to server "LAPTOP_PNEPND92_397" dad74cc6-704e-4b17-9bd8-af187c327fa0
+2024-07-11T12:30:59.266498000 802.929879s error: Heartbeat timeout, killing connection to peer [::ffff:172.16.3.10]:64885
+2024-07-11T12:30:59.273134000 802.936502s notice: Disconnected from server "LAPTOP_PNEPND92_397" dad74cc6-704e-4b17-9bd8-af187c327fa0
+2024-07-11T12:42:42.955010000 804.977225s warn: Connection attempt from [::ffff:127.0.0.1]:29015 failed, reason: unexpected server id (actual: 13b47c0f-dffd-4ac5-ad07-d3e4bda9075b, expected: dad74cc6-704e-4b17-9bd8-af187c327fa0) 
+2024-07-11T12:42:42.955230000 804.977444s warn: Remote node refused to connect with us, peer: [::ffff:127.0.0.1]:61048, reason: "unexpected server id (actual: 13b47c0f-dffd-4ac5-ad07-d3e4bda9075b, expected: dad74cc6-704e-4b17-9bd8-af187c327fa0)"
+2024-07-11T14:22:20.206160000 2221.242091s info: Rejected a connection from server dad74cc6-704e-4b17-9bd8-af187c327fa0 since one is open already.
+2024-07-11T14:22:21.631693000 2222.667670s notice: Connected to server "LAPTOP_PNEPND92_397" dad74cc6-704e-4b17-9bd8-af187c327fa0
+2024-07-11T14:22:26.841546000 2227.877714s info: Rejected a connection from server dad74cc6-704e-4b17-9bd8-af187c327fa0 since one is open already.
+2024-07-11T14:33:00.569106000 2861.628417s error: Heartbeat timeout, killing connection to peer 172.16.3.10:29015
+2024-07-11T14:33:00.575341000 2861.634648s notice: Disconnected from server "LAPTOP_PNEPND92_397" dad74cc6-704e-4b17-9bd8-af187c327fa0
+2024-07-11T14:33:02.636163000 2863.695545s warn: Connection attempt from [::ffff:127.0.0.1]:29015 failed, reason: unexpected server id (actual: 13b47c0f-dffd-4ac5-ad07-d3e4bda9075b, expected: dad74cc6-704e-4b17-9bd8-af187c327fa0) 
+2024-07-11T14:33:02.636656000 2863.696038s warn: Remote node refused to connect with us, peer: [::ffff:127.0.0.1]:61118, reason: "unexpected server id (actual: 13b47c0f-dffd-4ac5-ad07-d3e4bda9075b, expected: dad74cc6-704e-4b17-9bd8-af187c327fa0)"
+2024-07-11T14:33:35.915392000 2896.975990s notice: Connected to server "LAPTOP_PNEPND92_397" dad74cc6-704e-4b17-9bd8-af187c327fa0
+2024-07-11T14:33:37.857249000 2898.917918s info: Rejected a connection from server dad74cc6-704e-4b17-9bd8-af187c327fa0 since one is open already.
+2024-07-11T14:57:38.084286000 4339.218956s error: Heartbeat timeout, killing connection to peer 172.16.3.10:29015
+2024-07-11T14:57:38.089427000 4339.224093s notice: Disconnected from server "LAPTOP_PNEPND92_397" dad74cc6-704e-4b17-9bd8-af187c327fa0
+2024-07-11T14:57:40.151669000 4341.286419s warn: Connection attempt from [::ffff:127.0.0.1]:29015 failed, reason: unexpected server id (actual: 13b47c0f-dffd-4ac5-ad07-d3e4bda9075b, expected: dad74cc6-704e-4b17-9bd8-af187c327fa0) 
+2024-07-11T14:57:40.152228000 4341.286978s warn: Remote node refused to connect with us, peer: [::ffff:127.0.0.1]:56912, reason: "unexpected server id (actual: 13b47c0f-dffd-4ac5-ad07-d3e4bda9075b, expected: dad74cc6-704e-4b17-9bd8-af187c327fa0)"
+2024-07-11T15:01:24.873695000 4566.017548s notice: Connected to server "LAPTOP_PNEPND92_397" dad74cc6-704e-4b17-9bd8-af187c327fa0
+2024-07-11T15:01:27.118910000 4568.262850s info: Rejected a connection from server dad74cc6-704e-4b17-9bd8-af187c327fa0 since one is open already.
+2024-07-11T15:01:29.477216000 4570.621252s info: Rejected a connection from server dad74cc6-704e-4b17-9bd8-af187c327fa0 since one is open already.
+2024-07-11T15:08:36.420979000 4997.561542s notice: Disconnected from server "LAPTOP_PNEPND92_397" dad74cc6-704e-4b17-9bd8-af187c327fa0
+2024-07-11T15:08:36.491227000 4997.631786s info: Rejected a connection from server dad74cc6-704e-4b17-9bd8-af187c327fa0 since one is open already.
+2024-07-11T15:08:36.502722000 4997.643281s notice: Connected to server "LAPTOP_PNEPND92_397" dad74cc6-704e-4b17-9bd8-af187c327fa0
+2024-07-11T15:11:26.732149000 5167.878715s error: Heartbeat timeout, killing connection to peer 172.16.3.10:29015
+2024-07-11T15:11:26.736262000 5167.882825s notice: Disconnected from server "LAPTOP_PNEPND92_397" dad74cc6-704e-4b17-9bd8-af187c327fa0
+2024-07-11T15:11:28.791781000 5169.938418s warn: Connection attempt from [::ffff:127.0.0.1]:29015 failed, reason: unexpected server id (actual: 13b47c0f-dffd-4ac5-ad07-d3e4bda9075b, expected: dad74cc6-704e-4b17-9bd8-af187c327fa0) 
+2024-07-11T15:11:28.791912000 5169.938548s warn: Remote node refused to connect with us, peer: [::ffff:127.0.0.1]:63466, reason: "unexpected server id (actual: 13b47c0f-dffd-4ac5-ad07-d3e4bda9075b, expected: dad74cc6-704e-4b17-9bd8-af187c327fa0)"
+2024-07-11T15:14:19.520338000 5340.673001s notice: Connected to server "LAPTOP_PNEPND92_397" dad74cc6-704e-4b17-9bd8-af187c327fa0
+2024-07-11T15:59:52.763130000 6973.796830s notice: Disconnected from server "LAPTOP_PNEPND92_397" dad74cc6-704e-4b17-9bd8-af187c327fa0
+2024-07-11T15:59:52.841956000 6973.875582s info: Rejected a connection from server dad74cc6-704e-4b17-9bd8-af187c327fa0 since one is open already.
+2024-07-11T15:59:52.863507000 6973.897115s warn: Connection attempt from [::ffff:127.0.0.1]:29015 failed, reason: unexpected server id (actual: 13b47c0f-dffd-4ac5-ad07-d3e4bda9075b, expected: dad74cc6-704e-4b17-9bd8-af187c327fa0) 
+2024-07-11T15:59:52.876922000 6973.910517s warn: Remote node refused to connect with us, peer: [::ffff:127.0.0.1]:61277, reason: "unexpected server id (actual: 13b47c0f-dffd-4ac5-ad07-d3e4bda9075b, expected: dad74cc6-704e-4b17-9bd8-af187c327fa0)"
+2024-07-11T15:59:52.914571000 6973.948134s notice: Connected to server "LAPTOP_PNEPND92_397" dad74cc6-704e-4b17-9bd8-af187c327fa0
+2024-07-11T15:59:52.932522000 6973.966070s info: Rejected a connection from server dad74cc6-704e-4b17-9bd8-af187c327fa0 since one is open already.
+2024-07-11T16:02:01.595552000 7102.618116s notice: Server got SIGINT from pid 5774, uid 501; shutting down...
+2024-07-11T16:02:01.596345000 7102.618904s notice: Shutting down client connections...
+2024-07-11T16:02:01.596931000 7102.619490s notice: All client connections closed.
+2024-07-11T16:02:01.596938000 7102.619497s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2024-07-11T16:02:01.633292000 7102.655852s notice: Storage engine shut down.
+2024-07-11T16:02:01.634644000 7102.657204s notice: Disconnected from server "LAPTOP_PNEPND92_397" dad74cc6-704e-4b17-9bd8-af187c327fa0
+2024-07-11T16:27:53.703295000 0.035098s notice: Running rethinkdb 2.4.4 (arm64-apple-darwin23.0.0) (CLANG 15.0.0 (clang-1500.0.40.1))...
+2024-07-11T16:27:53.717774000 0.049578s notice: Running on Darwin 23.2.0 arm64
+2024-07-11T16:27:53.717852000 0.049656s notice: Loading data from directory /Users/damianvu/Desktop/VinProj/rethinkTest/resource/rethinkdb_data
+2024-07-11T16:27:53.741694000 0.073499s info: Automatically using cache size of 100 MB
+2024-07-11T16:27:53.741698000 0.073503s warn: Cache size does not leave much memory for server and query overhead (available memory: 959 MB).
+2024-07-11T16:27:53.741702000 0.073506s warn: Cache size is very low and may impact performance.
+2024-07-11T16:27:53.743729000 0.075533s notice: Listening for intracluster connections on port 29015
+2024-07-11T16:27:53.770843000 0.102648s notice: Listening for client driver connections on port 28015
+2024-07-11T16:27:53.770874000 0.102679s notice: Listening for administrative HTTP connections on port 8080
+2024-07-11T16:27:53.770877000 0.102682s notice: Listening on cluster addresses: 127.0.0.1, 172.16.2.163, ::1, fe80::1%1, fe80::cba:5d9d:6c6c:65e6%19, fe80::14b5:e86a:9e7d:cce3%11, fe80::392e:d4c5:8f34:13d0%15, fe80::437e:eba2:fb43:9491%17, fe80::50f3:cbff:fe41:bab6%12, fe80::50f3:cbff:fe41:bab6%13, fe80::952d:c727:9c76:138e%20, fe80::ce81:b1c:bd2c:69e%18, fe80::d203:9e79:7268:532%16
+2024-07-11T16:27:53.770879000 0.102684s notice: Listening on driver addresses: 127.0.0.1, 172.16.2.163, ::1, fe80::1%1, fe80::cba:5d9d:6c6c:65e6%19, fe80::14b5:e86a:9e7d:cce3%11, fe80::392e:d4c5:8f34:13d0%15, fe80::437e:eba2:fb43:9491%17, fe80::50f3:cbff:fe41:bab6%12, fe80::50f3:cbff:fe41:bab6%13, fe80::952d:c727:9c76:138e%20, fe80::ce81:b1c:bd2c:69e%18, fe80::d203:9e79:7268:532%16
+2024-07-11T16:27:53.770883000 0.102688s notice: Listening on http addresses: 127.0.0.1, 172.16.2.163, ::1, fe80::1%1, fe80::cba:5d9d:6c6c:65e6%19, fe80::14b5:e86a:9e7d:cce3%11, fe80::392e:d4c5:8f34:13d0%15, fe80::437e:eba2:fb43:9491%17, fe80::50f3:cbff:fe41:bab6%12, fe80::50f3:cbff:fe41:bab6%13, fe80::952d:c727:9c76:138e%20, fe80::ce81:b1c:bd2c:69e%18, fe80::d203:9e79:7268:532%16
+2024-07-11T16:27:53.770884000 0.102689s notice: Server ready, "Damians_MacBook_Air_local_pda" 13b47c0f-dffd-4ac5-ad07-d3e4bda9075b
+2024-07-11T16:27:55.655508000 1.987370s info: Table 5e06e00e-0576-4a4a-a65b-fa7e31fde770: Starting a new Raft election for term 3.
+2024-07-11T16:27:55.665327000 1.997191s info: Table 5e06e00e-0576-4a4a-a65b-fa7e31fde770: This server is Raft leader for term 3. Latest log index is 6.
+2024-07-11T16:28:03.791327000 10.123431s notice: Connected to server "LAPTOP_PNEPND92_397" dad74cc6-704e-4b17-9bd8-af187c327fa0
+2024-07-11T16:45:24.285422000 1033.832593s notice: Disconnected from server "LAPTOP_PNEPND92_397" dad74cc6-704e-4b17-9bd8-af187c327fa0
+2024-07-11T16:45:24.451223000 1033.998396s info: Rejected a connection from server dad74cc6-704e-4b17-9bd8-af187c327fa0 since one is open already.
+2024-07-11T16:45:24.497245000 1034.044419s notice: Connected to server "LAPTOP_PNEPND92_397" dad74cc6-704e-4b17-9bd8-af187c327fa0
+2024-07-11T16:47:49.187199000 1042.118700s notice: Disconnected from server "LAPTOP_PNEPND92_397" dad74cc6-704e-4b17-9bd8-af187c327fa0
+2024-07-11T16:47:49.326953000 1042.258340s notice: Connected to server "LAPTOP_PNEPND92_397" dad74cc6-704e-4b17-9bd8-af187c327fa0
+2024-07-11T16:47:50.220021000 1043.151429s info: Rejected a connection from server dad74cc6-704e-4b17-9bd8-af187c327fa0 since one is open already.
+2024-07-11T16:55:33.226121000 1384.852736s notice: Disconnected from server "LAPTOP_PNEPND92_397" dad74cc6-704e-4b17-9bd8-af187c327fa0
+2024-07-11T16:55:33.378001000 1385.004616s notice: Connected to server "LAPTOP_PNEPND92_397" dad74cc6-704e-4b17-9bd8-af187c327fa0
+2024-07-11T17:01:04.688531000 1533.472563s notice: Disconnected from server "LAPTOP_PNEPND92_397" dad74cc6-704e-4b17-9bd8-af187c327fa0
+2024-07-11T17:01:05.041497000 1533.825534s notice: Connected to server "LAPTOP_PNEPND92_397" dad74cc6-704e-4b17-9bd8-af187c327fa0
+2024-07-11T17:01:46.162581000 1545.705636s notice: Disconnected from server "LAPTOP_PNEPND92_397" dad74cc6-704e-4b17-9bd8-af187c327fa0
+2024-07-11T17:01:46.262664000 1545.805671s notice: Connected to server "LAPTOP_PNEPND92_397" dad74cc6-704e-4b17-9bd8-af187c327fa0
+2024-07-11T17:11:16.174375000 2041.166480s info: Rejected a connection from server dad74cc6-704e-4b17-9bd8-af187c327fa0 since one is open already.
+2024-07-11T17:11:16.174859000 2041.166960s notice: Disconnected from server "LAPTOP_PNEPND92_397" dad74cc6-704e-4b17-9bd8-af187c327fa0
+2024-07-11T17:11:16.471896000 2041.464004s notice: Connected to server "LAPTOP_PNEPND92_397" dad74cc6-704e-4b17-9bd8-af187c327fa0
+2024-07-11T17:13:30.588857000 2063.532855s error: Heartbeat timeout, killing connection to peer 172.16.3.10:29015
+2024-07-11T17:13:30.597799000 2063.541793s notice: Disconnected from server "LAPTOP_PNEPND92_397" dad74cc6-704e-4b17-9bd8-af187c327fa0
+2024-07-11T17:13:30.658881000 2063.602876s warn: Connection attempt from [::ffff:127.0.0.1]:29015 failed, reason: unexpected server id (actual: 13b47c0f-dffd-4ac5-ad07-d3e4bda9075b, expected: dad74cc6-704e-4b17-9bd8-af187c327fa0) 
+2024-07-11T17:13:30.659103000 2063.603098s warn: Remote node refused to connect with us, peer: [::ffff:127.0.0.1]:49833, reason: "unexpected server id (actual: 13b47c0f-dffd-4ac5-ad07-d3e4bda9075b, expected: dad74cc6-704e-4b17-9bd8-af187c327fa0)"
+2024-07-11T20:21:44.307974000 2295.092521s notice: Server got SIGINT from pid 5774, uid 501; shutting down...
+2024-07-11T20:21:44.309945000 2295.094489s notice: Shutting down client connections...
+2024-07-11T20:21:44.312527000 2295.097071s notice: All client connections closed.
+2024-07-11T20:21:44.312537000 2295.097081s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2024-07-11T20:21:44.537313000 2295.321867s notice: Storage engine shut down.
